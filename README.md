@@ -89,19 +89,21 @@ SIM is:
 ---
 
 ## Project Structure
+
+```text
 sim/
-├── ingest/ # Telemetry ingestion (Wazuh indexer)
+├── ingest/             # Telemetry ingestion (Wazuh indexer)
 │ └── wazuh_indexer.py
-├── state.py # Authoritative structured state management
-├── incidents.py # Incident lifecycle & promotion logic
-├── chains.py # Time-window attack chain correlation
-├── policy.py # Rule-based decision logic
-├── mitre.py # Local MITRE ATT&CK lookup & pinning
-├── triage.py # Human-readable hypothesis generation
-├── hypotheses.py # Structured reasoning primitives
-├── db.py # SQLite schema & connection layer
-├── models.py # Data models
-├── cli.py # Command-line interface
-├── api.py # API interface
-└── llm.py # Optional AI interpretation layer
+├── state.py           # Authoritative structured state management
+├── incidents.py       # Incident lifecycle & promotion logic
+├── chains.py          # Time-window attack chain correlation
+├── policy.py          # Rule-based decision logic
+├── mitre.py           # Local MITRE ATT&CK lookup & pinning
+├── triage.py          # Human-readable hypothesis generation
+├── hypotheses.py      # Structured reasoning primitives
+├── db.py              # SQLite schema & connection layer
+├── models.py          # Data models
+├── cli.py             # Command-line interface
+├── api.py             # API interface
+└── llm.py             # Optional AI interpretation layer
 
