@@ -7,7 +7,7 @@ SIM ingests security events into structured state, correlates activity across ti
 AI is used strictly as an interpretation layer — never as the source of security truth.
 
 
-![SIM Platform Diagram](assets/sim.svg)
+![SIM Platform Diagram](asset/sim.svg)
 ---
 
 SIM treats incidents as stateful objects, not temporary alerts.
