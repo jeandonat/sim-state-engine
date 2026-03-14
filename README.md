@@ -1,4 +1,4 @@
-*SENTINEL
+SENTINEL
 A Deterministic State Engine for Security
 
 * SIM (Security Incident Manager) — Deterministic SOC State Engine
