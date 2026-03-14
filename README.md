@@ -1,3 +1,6 @@
+*SENTINEL
+A Deterministic State Engine for Security
+
 * SIM (Security Incident Manager) — Deterministic SOC State Engine
 A deterministic, state-driven SOC incident engine built on top of Wazuh telemetry, with a causality engine and time-aware global context.
 SIM ingests security events into structured state, correlates activity across time windows, and manages incidents through controlled, rule-based lifecycle logic. Threat intelligence is resolved locally and offline — MITRE ATT&CK, CVE/NVD, protocols, and services — with no external dependencies.
